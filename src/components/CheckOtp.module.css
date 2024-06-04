@@ -1,0 +1,82 @@
+.container {
+  width: 400px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 520px;
+  top: 140px;
+  justify-content: center;
+  border: 1px solid rgba(192, 192, 192, 0.697);
+  border-radius: 7px;
+}
+
+.container input {
+  width: 330px;
+  position: relative;
+  right: 32px;
+  bottom: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(218, 41, 41, 0.598);
+  height: 45px;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+.img {
+  position: relative;
+  width: 160px;
+  top: -80px;
+  right: 110px;
+}
+
+.enter {
+  font-weight: 400;
+  position: relative;
+  right: 30px;
+  top: -60px;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+.span1 {
+  position: relative;
+  bottom: 30px;
+  font-weight: 200;
+  right: 30px;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+.codeagain {
+  margin-right: 120px;
+  position: relative;
+  bottom: 30px;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+
+.container button {
+  background-color: rgba(214, 21, 21, 0.822);
+  color: #fff;
+  width: 330px;
+  position: relative;
+  right: 30px;
+  border: none;
+  border-radius: 8px;
+  top: 50px;
+  height: 45px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.backarrow {
+  cursor: pointer;
+  position: relative;
+  right: 330px;
+  bottom: 20px;
+  color: rgba(214, 21, 21, 0.822);
+}

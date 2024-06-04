@@ -1,0 +1,197 @@
+.container {
+  width: 1400px;
+}
+
+.header {
+  position: fixed;
+  width: 1400px;
+  background-color: #fff;
+  height: 120px;
+  z-index: 2;
+}
+
+.header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.249);
+  margin: auto;
+  position: relative;
+  top: -14px;
+}
+.image {
+  width: calc(100% + 400px);
+  position: relative;
+  top: -30px;
+  left: 150px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.logo {
+  position: relative;
+  top: -50px;
+  right: 30px;
+  width: 1440px;
+}
+
+.searchButton {
+  position: relative;
+  right: 20px;
+  top: -9px;
+  border: none;
+  background-color: rgba(192, 192, 192, 0.184);
+  height: 45px;
+  border-radius: 0 8px 8px 0;
+  width: 50px;
+  font-size: 1.5rem;
+  color: rgb(126, 125, 125);
+  cursor: pointer;
+}
+
+.input {
+  position: relative;
+  top: -10px;
+  margin-right: 20px;
+  font-weight: 200;
+  width: 550px;
+  height: 45px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  background-color: rgba(192, 192, 192, 0.184);
+  outline: none;
+}
+
+.search {
+  position: relative;
+  top: 7px;
+}
+
+.enter {
+  position: relative;
+  top: -10px;
+  left: -470px;
+  border: 1px solid rgba(192, 192, 192, 0.464);
+  border-radius: 8px;
+  padding: 5px 9px;
+}
+
+.enterLogo {
+  position: relative;
+  top: 8px;
+  margin-left: 10px;
+  rotate: 180deg;
+  font-size: 1.5rem;
+}
+
+.enter span {
+  font-size: 0.8rem;
+}
+
+.span {
+  position: relative;
+  top: -10px;
+  left: -485px;
+  font-size: 1.4rem;
+  color: rgba(192, 192, 192, 0.464);
+}
+
+.shop {
+  position: relative;
+  top: 6px;
+  left: -490px;
+  font-size: 1.3rem;
+  background-color: #fff;
+  width: 30px;
+  height: 55px;
+  margin-right: 5px;
+}
+
+.shops {
+  width: 90px;
+  margin-right: 2px;
+  background-color: #fff;
+}
+.navbar {
+  position: fixed;
+  z-index: 5;
+}
+
+.nav {
+  position: relative;
+  display: flex;
+  top: -60px;
+  list-style: none;
+  background-color: #fff;
+}
+
+.nav li {
+  padding: 11px;
+  padding-right: 14px;
+  color: rgba(21, 21, 21, 0.734);
+  font-weight: 200;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.nav li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: rgba(255, 0, 0, 0.871);
+  display: block;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.nav li:hover::after {
+  width: 100%;
+}
+
+.nav span {
+  color: rgba(21, 21, 21, 0.327);
+  position: relative;
+  top: 13px;
+}
+
+.nav :nth-child(1) {
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: rgba(21, 21, 21, 0.963);
+}
+
+.navbarLogo {
+  position: relative;
+  top: 5px;
+  margin-left: 7px;
+}
+
+.locButton {
+  position: relative;
+  top: -110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 980px;
+  border: none;
+  background-color: #fff;
+  font-weight: 200;
+  width: 480px;
+  height: 50px;
+}
+
+.locButton :nth-child(1) {
+  position: relative;
+  left: 5px;
+  top: 3px;
+  font-size: 1.2rem;
+}
+
+.menu {
+  width: 500px;
+  height: 500px;
+  z-index: 20;
+  background-color: aqua;
+}

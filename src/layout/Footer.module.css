@@ -1,0 +1,232 @@
+.footer {
+  margin-top: 200px;
+  margin-right: 20px;
+  width: 1400px;
+}
+
+.footer::before {
+  content: "";
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: rgba(192, 192, 192, 0.365);
+}
+
+.digiLogo img {
+  width: 110px;
+}
+
+.digiLogo button {
+  position: relative;
+  right: 1140px;
+  border: 1px solid rgba(192, 192, 192, 0.599);
+  color: rgba(133, 132, 132, 0.735);
+  background-color: #fff;
+  font-weight: 200;
+  border-radius: 6px;
+  padding: 10px;
+  width: 135px;
+  cursor: pointer;
+}
+
+.arrowUp {
+  margin-right: 10px;
+}
+
+.tele {
+  display: flex;
+}
+
+.tele p,
+.tele span {
+  margin-left: 20px;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+}
+
+.optionsText {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 200;
+  padding: 40px;
+  font-size: 0.75rem;
+  position: relative;
+  bottom: 27px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.aboutUs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutUs li {
+  list-style: none;
+  margin: 8px 7px 0 0;
+  font-weight: 200;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.aboutUs p {
+  color: rgba(29, 29, 29, 0.883);
+  font-size: 1.1rem;
+}
+.socialLogos {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.socialLogo {
+  font-size: 2.2rem;
+  color: gray;
+}
+
+.aboutUs :last-child {
+  margin-left: 15px;
+}
+
+.aboutUs :last-child input {
+  border: none;
+  outline: none;
+  background-color: rgba(128, 128, 128, 0.141);
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.aboutUs :last-child button {
+  border: none;
+  background-color: rgba(192, 192, 192, 0.418);
+  width: 50px;
+  height: 40px;
+  margin: 10px 15px 0 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.digiApp {
+  display: flex;
+  margin-top: 50px;
+  border-radius: 15px;
+  width: calc(100% - 40px);
+  height: 80px;
+  background-color: rgba(35, 35, 89, 0.872);
+}
+
+.digiApp :first-child {
+  width: 50px;
+  position: relative;
+  bottom: 14px;
+  right: 15px;
+}
+
+.digiApp p {
+  color: #e2e2e2;
+  margin: 30px 35px;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.digiApp img {
+  position: relative;
+  right: 350px;
+  top: -10px;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.more {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.footer3 {
+  width: 100%;
+  margin-top: 20px;
+  height: 250px;
+}
+
+.footer3::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.219);
+  width: 100%;
+}
+
+.largText {
+  display: flex;
+  margin-top: 30px;
+}
+.largText div {
+  display: flex;
+  flex-direction: column;
+}
+.largText h3 {
+  width: 950px;
+  color: rgb(80, 79, 79);
+  font-size: 1.3rem;
+}
+
+.largText p {
+  color: gray;
+  font-weight: 200;
+  font-size: 0.83rem;
+  margin-top: 8px;
+  height: 100px;
+  width: 950px;
+}
+
+.namad {
+  width: 100px;
+  height: 100px;
+  padding: 14px;
+  margin: 10px;
+  margin-right: 30px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid rgba(192, 192, 192, 0.766);
+}
+
+.copy {
+  text-align: center;
+  font-weight: 200;
+  font-size: 0.76rem;
+  position: relative;
+  color: gray;
+  top: 40px;
+}
+
+.copy::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.101);
+  width: 100%;
+  position: relative;
+  top: -30px;
+}
+
+.footerLogos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  width: calc(100% + 22px);
+  position: relative;
+  right: -20px;
+}
+
+.footerLogo {
+  padding: 20px 65px;
+  background-color: rgba(128, 128, 128, 0.093);
+  border: 1px solid rgba(128, 128, 128, 0.395);
+}
