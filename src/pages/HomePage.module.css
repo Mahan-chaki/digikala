@@ -29,13 +29,14 @@
 }
 
 .mainimg {
-  width: 1500px;
+  width: 1400px;
   height: 400px;
   margin-left: 60px;
 }
 
 .homeicons {
   display: flex;
+  width: 1440px;
   justify-content: space-around;
 }
 
@@ -98,4 +99,11 @@
 .image40 img{
   width: 300px;
   border-radius: 15px;
+}
+
+@media (width < 1440px) {
+  .homeicon {
+    position: relative;
+    width: 100vw;
+  }
 }

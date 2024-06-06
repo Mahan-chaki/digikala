@@ -1,13 +1,15 @@
 .container {
-  width: 1400px;
+  width: 1440px;
+  z-index: 20;
+  position: fixed;
 }
 
 .header {
-  position: fixed;
-  width: 1400px;
+  position: absolute;
+  width: 1440px;
   background-color: #fff;
   height: 120px;
-  z-index: 2;
+  z-index: 20;
 }
 
 .header::after {
@@ -21,11 +23,9 @@
   top: -14px;
 }
 .image {
-  width: calc(100% + 400px);
+  max-width: 1440px;
   position: relative;
   top: -30px;
-  left: 150px;
-  height: 60px;
   cursor: pointer;
 }
 
@@ -194,4 +194,12 @@
   height: 500px;
   z-index: 20;
   background-color: aqua;
+}
+
+@media (width < 1440px) {
+  .container,
+  .navbar {
+    position: relative;
+    width: 100vw;
+  }
 }
