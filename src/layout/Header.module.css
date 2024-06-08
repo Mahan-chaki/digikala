@@ -203,3 +203,34 @@
     width: 100vw;
   }
 }
+
+@media (width < 430px) {
+  .navbar {
+    display: none;
+  }
+  .image {
+    width: 600px;
+    left: 110px;
+  }
+  .logo img {
+    width: 70px;
+    position: relative;
+    right: -13px;
+  }
+  .searchButton {
+    width: 20px;
+    height: 30px;
+    top: 2px;
+    right: -8px;
+  }
+  .search {
+    width: 20px;
+    top: 2px;
+  }
+  .input {
+    height: 30px;
+    width: 200px;
+    right: -28px;
+    top: -5px;
+  }
+}
