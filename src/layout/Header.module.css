@@ -208,7 +208,7 @@
   .navbar {
     display: none;
   }
-  .image {
+  /* .image {
     width: 600px;
     left: 110px;
   }
@@ -229,8 +229,17 @@
   }
   .input {
     height: 30px;
-    width: 200px;
+    width: 150px;
     right: -28px;
     top: -5px;
   }
+  .enter {
+    padding: 0;
+    right: -20px;
+    width: 30px;
+    height: 20px;
+  }
+  .enterLogo{
+    font-size: .9rem;
+  } */
 }

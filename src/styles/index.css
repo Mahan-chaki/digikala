@@ -35,6 +35,6 @@ select {
 @media (width < 420px) {
   :root {
     max-width: 420px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 }
