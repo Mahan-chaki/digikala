@@ -85,4 +85,8 @@
     width: 100vw;
     border: none;
   }
+  :root {
+    max-width: 430px;
+    overflow-x: hidden;
+  }
 }

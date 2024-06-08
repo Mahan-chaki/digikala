@@ -87,4 +87,8 @@
     right: 0;
     top: 0;
   }
+  :root {
+    max-width: 430px;
+    overflow-x: hidden;
+  }
 }
