@@ -90,12 +90,12 @@
   font-size: 0.78rem;
 }
 
-.image40{
+.image40 {
   display: flex;
   justify-content: space-around;
   margin: 50px 10px;
 }
-.image40 img{
+.image40 img {
   width: 300px;
   border-radius: 15px;
 }
@@ -104,5 +104,77 @@
   .homeicon {
     position: relative;
     width: 100vw;
+  }
+}
+
+@media (width < 430px) {
+  .container {
+    top: 100px;
+  }
+  .storylogo {
+    width: 40px;
+  }
+  .story span {
+    font-size: 0.5rem;
+    width: 50px;
+    height: 10px;
+  }
+  .stories {
+    position: relative;
+    right: -20px;
+  }
+  .mainimg {
+    margin: 10px auto;
+    width: 420px;
+    height: 100px;
+  }
+  .homeicons {
+    width: 400px;
+    margin-right: 24px;
+  }
+  .homeicon {
+    margin-top: -20px;
+  }
+  .homeicon img {
+    width: 30px;
+  }
+  .homeicon span {
+    font-size: 0.4rem;
+    width: 50px;
+  }
+  .bigimages {
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  .bigimages img {
+    width: 190px;
+  }
+  .dastebandi p {
+    font-size: 0.7rem;
+    margin-top: 0px;
+  }
+  .dasteimg {
+    flex-wrap: wrap;
+    width: 400px;
+    gap: 0;
+    margin-right: 12px;
+  }
+  .dasteimg > div {
+    display: flex;
+    flex-direction: column;
+  }
+  .dasteimg img {
+    width: 25px;
+    margin: 0;
+  }
+  .dasteimg span {
+    font-size: 0.4rem;
+    position: relative;
+    left: 20px;
+  }
+  .image40 img {
+    width: 80px;
+    margin: auto;
+
   }
 }

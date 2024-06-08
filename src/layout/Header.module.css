@@ -23,7 +23,7 @@
   top: -14px;
 }
 .image {
-  max-width: 1440px;
+  width: 1440px;
   position: relative;
   top: -30px;
   cursor: pointer;
@@ -208,9 +208,9 @@
   .navbar {
     display: none;
   }
-  /* .image {
-    width: 600px;
-    left: 110px;
+  .image {
+    width: 800px;
+    left: 210px;
   }
   .logo img {
     width: 70px;
@@ -229,17 +229,22 @@
   }
   .input {
     height: 30px;
-    width: 150px;
+    width: 200px;
     right: -28px;
     top: -5px;
   }
   .enter {
-    padding: 0;
+    padding: 0 5px;
     right: -20px;
-    width: 30px;
-    height: 20px;
+    top: -6px;
   }
-  .enterLogo{
-    font-size: .9rem;
-  } */
+  .enter span {
+    font-size: 0.65rem;
+  }
+  .enterLogo {
+    display: none;
+  }
+  .shop {
+    display: none;
+  }
 }

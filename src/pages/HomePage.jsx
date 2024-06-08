@@ -30,11 +30,11 @@ function HomePage() {
         <div className={styles.stories}>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>سفر در اتاق تحریر</span>
+            <span>سفر به زمان</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
@@ -42,7 +42,7 @@ function HomePage() {
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
@@ -50,7 +50,7 @@ function HomePage() {
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span>  گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />

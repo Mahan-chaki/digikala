@@ -32,9 +32,9 @@ select {
   top: 50%;
 }
 
-@media (width < 420px) {
+@media (width <= 420px) {
   :root {
     max-width: 420px;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
 }
