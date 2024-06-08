@@ -79,3 +79,10 @@
   right: 30px;
   font-size: 0.72rem;
 }
+
+@media (width < 430px) {
+  .container div {
+    width: 100vw;
+    border: none;
+  }
+}

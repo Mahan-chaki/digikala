@@ -80,3 +80,11 @@
   bottom: 20px;
   color: rgba(214, 21, 21, 0.822);
 }
+
+@media (width < 430px) {
+  .container {
+    border: none;
+    right: 0;
+    top: 0;
+  }
+}

@@ -39,7 +39,7 @@ function Footer() {
     <footer className={styles.footer}>
       <div className={styles.digiLogo}>
         <img src={digi} />
-        <button onClick={upHandler}>
+        <button onClick={upHandler} className={styles.goup}>
           بازگشت به بالا
           <IoIosArrowUp className={styles.arrowUp} />
         </button>
