@@ -83,6 +83,7 @@
 
 @media (width < 430px) {
   .container {
+    width: 430px;
     border: none;
     right: 0;
     top: 0;

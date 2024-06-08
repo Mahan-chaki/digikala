@@ -82,7 +82,7 @@
 
 @media (width < 430px) {
   .container div {
-    width: 100vw;
+    width: 430px;
     border: none;
   }
   :root {
