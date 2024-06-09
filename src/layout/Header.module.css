@@ -204,10 +204,9 @@
   }
 }
 
-@media (width < 410px) {
+@media (width <= 400px) {
   :root {
-    max-width: 410px;
-    overflow-x: hidden;
+    width: 400px;
   }
   .navbar {
     display: none;

@@ -32,8 +32,9 @@ select {
   top: 50%;
 }
 
-@media (width < 410px) {
+@media (width <= 401px) {
   :root {
-    width: 410px;
+    width: 400px;
   }
+  
 }

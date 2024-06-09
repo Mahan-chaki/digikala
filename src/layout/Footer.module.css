@@ -230,31 +230,31 @@
   border: 1px solid rgba(128, 128, 128, 0.395);
 }
 
-@media (width < 410px) {
+@media (width <= 400px) {
   .footer {
-    max-width: 410px;
+    max-width: 400px;
   }
   .digiLogo button {
     right: 140px;
     top: -10px;
   }
   .tele {
-    width: 400px;
+    width: 399px;
     margin-top: 10px;
   }
   .options {
-    width: 400px;
+    width: 399px;
     margin: 0;
   }
   .optionsText {
     font-size: 0.4rem;
     padding: 0;
-    width: 400px;
+    width: 399px;
     top: 0px;
     right: -10px;
   }
   .aboutUs {
-    width: 400px;
+    width: 399px;
     margin-top: 30px;
   }
   .aboutUs p {
@@ -285,7 +285,7 @@
     height: 60px;
   }
   .digiApp p {
-    width: 400px;
+    width: 399px;
     margin-top: 13px;
     font-size: 0.5rem;
   }

@@ -107,15 +107,14 @@
   }
 }
 
-@media (width < 410px) {
+@media (width <= 400px) {
   :root {
-    max-width: 410px;
-    overflow-x: hidden;
+    width: 400px;
   }
   .container {
     top: 100px;
   }
-  .stories{
+  .stories {
     gap: 6px;
   }
   .storylogo {
@@ -132,7 +131,7 @@
   }
   .mainimg {
     margin: 10px auto;
-    width: 420px;
+    width: 399px;
     height: 100px;
   }
   .homeicons {
