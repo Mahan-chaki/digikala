@@ -235,8 +235,9 @@
     max-width: 400px;
   }
   .digiLogo button {
-    right: 140px;
+    right: 120px;
     top: -10px;
+    width: 120px;
   }
   .tele {
     width: 399px;
@@ -290,14 +291,17 @@
     font-size: 0.5rem;
   }
   .digiApp img {
-    width: 60px;
+    width: 50px;
     right: -30px;
     top: -13px;
+  }
+  .more{
+    width: 20px;
   }
   .footer3 {
     display: none;
   }
   .footerLogos {
-    margin-right: 12px;
+    display: none;
   }
 }
