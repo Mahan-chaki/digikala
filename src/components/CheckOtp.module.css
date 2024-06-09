@@ -27,7 +27,7 @@
 }
 
 .container input:focus {
-  scale: 0;
+  scale: 1;
   scroll-behavior: 0;
 }
 

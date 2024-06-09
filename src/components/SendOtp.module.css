@@ -25,6 +25,10 @@
   touch-action: manipulation;
 }
 
+.container input:focus {
+  scale: 1;
+  scroll-behavior: 0;
+}
 .img {
   position: relative;
   width: 160px;
