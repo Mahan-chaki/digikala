@@ -21,6 +21,7 @@ function SendOtp({ setStep, mobile, setMobile }) {
         value={mobile}
         maxLength={11}
         onChange={(e) => setMobile(e.target.value)}
+        onTouchStart={(event) => event.preventDefault()}
       />
       <span className={styles.span3}>لطفا این قسمت را خالی نگذارید</span>
       <button onClick={enterHandler}>ورود</button>
