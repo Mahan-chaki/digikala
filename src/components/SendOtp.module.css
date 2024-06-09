@@ -22,6 +22,8 @@
   border: 1px solid rgba(218, 41, 41, 0.598);
   height: 45px;
   outline: none;
+  text-align: center;
+  font-size: 1rem;
   touch-action: manipulation;
 }
 
