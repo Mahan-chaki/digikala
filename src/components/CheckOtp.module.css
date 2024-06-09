@@ -81,9 +81,9 @@
   color: rgba(214, 21, 21, 0.822);
 }
 
-@media (width < 430px) {
+@media (width < 410px) {
   .container {
-    width: 430px;
+    width: 410px;
     border: none;
     right: 0;
     top: 0;

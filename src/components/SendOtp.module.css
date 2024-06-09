@@ -80,13 +80,17 @@
   font-size: 0.72rem;
 }
 
-@media (width < 430px) {
+@media (width < 410px) {
+  .container,
   .container div {
-    width: 430px;
+    width: 410px;
     border: none;
   }
+  .container div{
+    width: 100vw;
+  }
   :root {
-    max-width: 430px;
+    width: 410px;
     overflow-x: hidden;
   }
 }

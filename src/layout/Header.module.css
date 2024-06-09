@@ -204,7 +204,11 @@
   }
 }
 
-@media (width < 430px) {
+@media (width < 410px) {
+  :root {
+    max-width: 410px;
+    overflow-x: hidden;
+  }
   .navbar {
     display: none;
   }
@@ -245,6 +249,11 @@
     display: none;
   }
   .shop {
+    display: none;
+  }
+}
+@media (width < 702px) {
+  .navbar {
     display: none;
   }
 }

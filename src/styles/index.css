@@ -2,7 +2,7 @@
   font-family: "Vazir", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 body {
@@ -32,9 +32,8 @@ select {
   top: 50%;
 }
 
-@media (width <= 420px) {
+@media (width < 410px) {
   :root {
-    max-width: 420px;
-    overflow-x: hidden;
+    width: 410px;
   }
 }
