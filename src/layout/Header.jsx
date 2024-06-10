@@ -40,12 +40,12 @@ function Header() {
           <ul className={styles.nav}>
             <li>
               <IoIosMenu className={styles.navbarLogo} />
-              دسته بندی کالا ها
+              دسته بندی
             </li>
             <span>|</span>
             <li>
               <TbDiscount className={styles.navbarLogo} />
-              شگفت انگیز ها
+              شگفت انگیز 
             </li>
             <li>
               <FaShoppingBasket className={styles.navbarLogo} />
@@ -61,7 +61,7 @@ function Header() {
             </li>
             <li>
               <BiSolidDiscount className={styles.navbarLogo} />
-              تخفیف‌ها و پیشنهاد‌ها
+            تخفیف‌ها
             </li>
             <span>|</span>
             <li>سوالی دارید؟</li>

@@ -91,15 +91,16 @@
   font-size: 0.72rem;
 }
 
-@media (width < 410px) {
+@media (width <= 431px) {
   .container {
-    width: 410px;
+    width: 431px;
     border: none;
     right: 0;
     top: 0;
   }
   :root {
-    max-width: 430px;
+    width: 431px;
     overflow-x: hidden;
+    margin: auto;
   }
 }

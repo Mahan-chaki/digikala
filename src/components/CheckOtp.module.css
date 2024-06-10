@@ -87,15 +87,16 @@
   color: rgba(214, 21, 21, 0.822);
 }
 
-@media (width < 410px) {
+@media (width <= 431px) {
   .container {
-    width: 410px;
+    width: 431px;
     border: none;
     right: 0;
     top: 0;
+    margin: auto;
   }
   :root {
-    max-width: 430px;
+    width: 431px;
     overflow-x: hidden;
   }
 }

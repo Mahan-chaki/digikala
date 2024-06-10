@@ -230,9 +230,12 @@
   border: 1px solid rgba(128, 128, 128, 0.395);
 }
 
-@media (width <= 400px) {
-  .footer {
-    max-width: 400px;
+@media (width <= 431px) {
+  :root {
+    width: 431px;
+  }
+  .footer{
+    width: 431px;
   }
   .digiLogo button {
     right: 120px;
@@ -295,7 +298,7 @@
     right: -30px;
     top: -13px;
   }
-  .more{
+  .more {
     width: 20px;
   }
   .footer3 {
