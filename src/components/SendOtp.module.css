@@ -93,12 +93,12 @@
 
 @media (width <= 431px) {
   :root {
-    width: 431px;
-    overflow-x: hidden;
+    max-width: 430px;
+    width: 100%;
+    margin: auto;
+
   }
   .container {
-    width: 430px;
-    margin: auto;
     border: none;
     right: 0;
     top: 50px;
