@@ -58,27 +58,27 @@ function HomePage() {
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>کفش و کتانی پاما</span>
+            <span>کفش و کتانی </span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>تبلت و گوشی موبایل</span>
+            <span> گوشی موبایل</span>
           </div>
           <div className={styles.story}>
             <img src={story1} className={styles.storylogo} />
-            <span>ایران را سراسر اباد کنیم</span>
+            <span>ایران </span>
           </div>
         </div>
         <div>

@@ -92,15 +92,15 @@
 }
 
 @media (width <= 431px) {
-  .container {
-    width: 431px;
-    border: none;
-    right: 0;
-    top: 0;
-  }
   :root {
     width: 431px;
     overflow-x: hidden;
+  }
+  .container {
+    width: 430px;
     margin: auto;
+    border: none;
+    right: 0;
+    top: 50px;
   }
 }

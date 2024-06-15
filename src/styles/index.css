@@ -36,6 +36,6 @@ select {
   :root {
     width: 431px;
     overflow-x: hidden;
+    margin: auto;
   }
-  
 }

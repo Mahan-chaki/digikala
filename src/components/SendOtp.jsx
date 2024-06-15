@@ -7,7 +7,11 @@ function SendOtp({ setStep, mobile, setMobile }) {
     const regex = /09\d{9}/;
     const result = regex.test(mobile);
     console.log(result);
-    result ? setStep(2) : toast.error("شماره موبایل خود را درست وارد کنید");
+    result ? (
+      setStep(2)
+    ) :  (
+      <div className={styles.toast}>{toast.error("شماره موبایل خود را درست وارد کنید")}</div>
+    );
   };
 
   return (

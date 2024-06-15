@@ -117,6 +117,7 @@
   .stories {
     gap: 6px;
     overflow: scroll;
+    overflow-y: hidden;
   }
   .storylogo {
     width: 40px;
