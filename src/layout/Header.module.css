@@ -287,6 +287,9 @@
   .shop {
     display: none;
   }
+  .nav .ersal {
+    display: none;
+  }
 }
 /* @media (width < 702px) {
   .navbar {

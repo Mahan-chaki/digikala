@@ -1,6 +1,7 @@
 .container {
   position: relative;
   top: 170px;
+  margin-right: 50px;
 }
 
 .stories {
@@ -30,7 +31,6 @@
 .mainimg {
   width: 1400px;
   height: 400px;
-  margin-left: 60px;
 }
 
 .homeicons {
@@ -55,14 +55,14 @@
 }
 
 .bigimages {
-  margin: 40px 0 30px 0;
+  margin: 40px 0 10px 0;
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 .bigimages img {
-  width: 670px;
+  width: 660px;
   border-radius: 30px;
 }
 
@@ -113,6 +113,7 @@
   }
   .container {
     top: 100px;
+    margin-right: 15px;
   }
   .stories {
     gap: 6px;

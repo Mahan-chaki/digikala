@@ -1,6 +1,6 @@
 .container {
   width: 400px;
-  height: 450px;
+  height: 550px;
   background-color: #fff;
   z-index: 17;
   display: flex;
@@ -96,11 +96,14 @@
     max-width: 430px;
     width: 100%;
     margin: auto;
-
+    overflow-x: hidden;
   }
   .container {
     border: none;
-    right: 0;
+    right: 10px;
     top: 50px;
+  }
+  body {
+    overflow-x: hidden;
   }
 }

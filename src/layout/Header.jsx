@@ -65,7 +65,10 @@ function Header() {
             </li>
             <span>|</span>
             <li>سوالی دارید؟</li>
-            <li>در دیجیکالا بفروشید!</li>
+            <li >در دیجیکالا بفروشید!</li>
+            <li className={styles.ersal}>
+            ارسال رایگان با پلاس
+            </li>
           </ul>
           <button className={styles.locButton}>
             <CiLocationOn />
