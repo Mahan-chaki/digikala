@@ -120,6 +120,9 @@
     overflow: scroll;
     overflow-y: hidden;
   }
+  .stories::-webkit-scrollbar {
+    display: none;
+  }
   .storylogo {
     width: 40px;
   }

@@ -134,6 +134,7 @@
   font-size: 0.8rem;
   cursor: pointer;
   transition: 0.3s all ease-in-out;
+  text-wrap: nowrap;
 }
 
 .nav li::after {
