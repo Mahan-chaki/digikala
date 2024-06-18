@@ -204,7 +204,15 @@
     width: 100vw;
   }
 }
-
+@media ( 431px < width < 1440px) {
+  .header::after{
+    position: relative;
+    top: -80px;
+  }
+  .image{
+    width: 1470px;
+  }
+}
 @media (width <= 431px) {
   :root {
     width: 430px;
