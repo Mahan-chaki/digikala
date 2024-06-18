@@ -204,12 +204,12 @@
     width: 100vw;
   }
 }
-@media ( 431px < width < 1440px) {
-  .header::after{
+@media (431px < width < 1440px) {
+  .header::after {
     position: relative;
     top: -80px;
   }
-  .image{
+  .image {
     width: 1470px;
   }
 }
@@ -244,6 +244,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-wrap: nowrap;
   }
   .navbarLogo {
     top: 0px;
