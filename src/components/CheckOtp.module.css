@@ -86,7 +86,23 @@
   bottom: 20px;
   color: rgba(214, 21, 21, 0.822);
 }
-
+@media (431px < width < 1440px) {
+  .container {
+    border: none;
+    right: 34%;
+    top: 30px;
+  }
+}
+@media (431px < width < 850px) {
+  .container {
+    right: 30%;
+  }
+}
+@media (431px < width < 650px) {
+  .container {
+    right: 25%;
+  }
+}
 @media (width <= 431px) {
   :root {
     max-width: 430px;

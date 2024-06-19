@@ -1,5 +1,5 @@
 .container {
-  width: 400px;
+  max-width: 400px;
   height: 550px;
   background-color: #fff;
   z-index: 17;
@@ -90,7 +90,23 @@
   right: 30px;
   font-size: 0.72rem;
 }
-
+@media (431px < width < 1440px) {
+  .container {
+    border: none;
+    right: 34%;
+    top: 50px;
+  }
+}
+@media (431px < width < 850px) {
+  .container {
+    right: 30%;
+  }
+}
+@media (431px < width < 650px) {
+  .container {
+    right: 25%;
+  }
+}
 @media (width <= 431px) {
   :root {
     max-width: 430px;

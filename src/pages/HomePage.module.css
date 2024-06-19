@@ -109,7 +109,6 @@
 @media (431px < width < 1440px) {
   .dastebandi p {
     width: 1440px;
-    background-color: aqua;
   }
   .mainimg {
     width: 1440px;
@@ -119,7 +118,7 @@
     width: 1440px;
     margin-right: 20px;
   }
-  
+
   .bigimages {
     width: 1440px;
     justify-content: space-evenly;
@@ -194,7 +193,6 @@
   .dastebandi p {
     font-size: 0.7rem;
     margin-top: 0px;
-    background-color: red;
   }
   .dasteimg {
     flex-wrap: wrap;

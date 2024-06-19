@@ -9,8 +9,10 @@ function SendOtp({ setStep, mobile, setMobile }) {
     console.log(result);
     result ? (
       setStep(2)
-    ) :  (
-      <div className={styles.toast}>{toast.error("شماره موبایل خود را درست وارد کنید")}</div>
+    ) : (
+      <div className={styles.toast}>
+        {toast.error("شماره موبایل خود را درست وارد کنید")}
+      </div>
     );
   };
 
